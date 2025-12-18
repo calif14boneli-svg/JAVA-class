@@ -1,8 +1,11 @@
 public class casting {
 public static void main(String[] args) {
     //CASTING: conversion de tipos de datos
+
     //Tipos de datos primitivos:
     //byte, short, int, long, float, double, char, boolean
+    ////Tipos de datos NO primitivos:
+    //String
 
     //Entero a double
     int numeroEntero = 250;
@@ -19,7 +22,7 @@ public static void main(String[] args) {
     int otroEntero = (int) otroDecimal; //casting explicito
     System.out.println("otroEntero: " + otroEntero);
 
-    //TUTORIAL: https://www.youtube.com/watch?v=YJ8jJ1pVn1o&list=PL2Z95CSZ1N4GD4wqgXMiujfSVuG2xBP9P&index=10
+    //TUTORIAL: https://youtu.be/Le5vzBQDgwM?list=PL2Z95CSZ1N4GD4wqgXMiujfSVuG2xBP9P
     
     
     
@@ -32,9 +35,10 @@ public static void main(String[] args) {
 
 
     //Entero a texto
-    int edad = 30;
-    String textoEdad = String.valueOf(edad);
-    System.out.println("textoEdad: " + textoEdad);
+    int entero = 30;
+    String enteroTexto = String.valueOf(entero);
+    System.out.println("textoEdad: " + enteroTexto);
+
 
 }
 }
