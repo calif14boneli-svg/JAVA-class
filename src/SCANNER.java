@@ -8,8 +8,8 @@ public class SCANNER {
         int edad;
 
     //Scanner dara acceso a que funcione el texto:"entrada" para que funcione por la terminal
-        Scanner entrada= new Scanner(System.in);
-
+        Scanner entrada = new Scanner(System.in);
+     
     //salida de lo que se pide del problema:
         System.out.println( "Escribe tu nombre: " );
 
