@@ -4,17 +4,34 @@ public class Condicional_if {
     public static void main(String[] args) {
 
         int edad = 18;
-        int edad2 = 20;
-
+        int km = 100;
+        
+    //si.. 
         if (edad >= 18) {
             System.out.println("eres mayor de edad");
-        } else {
+        } 
+    //entonces..    
+        else {
             System.out.println("No eres mayor de edad");
         }
         
-        if(edad2 >=24) {
-            System.out.println("Estas en la base 2");
-        } else if (edad2 >=30 & edad2>10) {
-            System.out.println( "Estaras en espera");
-        }
-    }}
+
+
+
+    //si...    
+    if (km >=100) {
+        System.out.println("El vehiculo tiene mas de un año");
+    }   
+
+    //entonces si...
+    else if (50 >= km && km < 100) {
+        System.out.println("El vehiculo esta semi nuevo");
+    }
+
+    //de lo contrario...
+    else{
+        System.out.println("El vehiculo es nuevo");
+    
+    }
+}
+}
