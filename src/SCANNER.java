@@ -14,6 +14,8 @@ public class SCANNER {
         System.out.println( "Escribe tu nombre: " );
 
     //acceso a que puedas interactuar en la terminal con este comando:
+        //Entrada.next()
+        //next
         nombre=entrada.next();
 
     //salida despues de escribir en la terminal:
