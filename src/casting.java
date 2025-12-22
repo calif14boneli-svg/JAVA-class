@@ -19,8 +19,8 @@ public static void main(String[] args) {
     double otroDecimal = 99.99;
     System.out.println("otroDecimal: " + otroDecimal);
 
-    int otroEntero = (int) otroDecimal; //casting explicito
-    System.out.println("otroEntero: " + otroEntero);
+    int otroEntero2 = (int) otroDecimal; //casting explicito
+    System.out.println("otroEntero2: " + otroEntero2);
 
     //TUTORIAL: https://youtu.be/Le5vzBQDgwM?list=PL2Z95CSZ1N4GD4wqgXMiujfSVuG2xBP9P
     
